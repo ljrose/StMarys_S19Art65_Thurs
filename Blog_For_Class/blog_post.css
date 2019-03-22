@@ -1,0 +1,107 @@
+strong{
+
+  font-weight: 500;
+
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ul {
+
+  margin-top:15px;
+
+}
+
+.blog_top {
+  /* background-color: blue; */
+  width:50vw;
+  float:left;
+  color: white !important;
+}
+
+.fix_me {
+  /* background-color: blue; */
+  color: white !important;
+}
+
+.blog_home {
+  width:25vw;
+  float:left;
+  color: white;
+}
+
+.date {
+  font-size: 32px;
+  width:100vw;
+  /* background-color: blue; */
+  padding-left: 7vw;
+  border-bottom: 2px solid black
+}
+
+.blog_body {
+  margin: auto;
+  width:85vw;
+  /* height: 20vh; */
+  /* background-color: blue; */
+  line-height: 2.5em;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.tab {
+  padding-left:50px;
+}
+
+/* ul.list {
+  list-style-type: lower-alpha;
+} */
+
+.bullet {
+  padding-left:30px;
+  border-radius: 84%;
+  /* width:25px; */
+  /* height:5px; */
+  background-color: black;
+}
+
+.text {
+  padding-left:10px;
+}
+
+.link {
+  font-weight:bold;
+}
+
+.img_of_fractal {
+  width: 15vw;
+  height: 25vh;
+  margin-right: 110px;
+  /* margin: auto; */
+  /* background-image: url("fractal.png"); */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-size: fit; */
+  background-size: contain;
+  margin-top: 50px;
+  float: left;
+
+}
+
+#fract_1 {
+  background-image: url("fractal.png");
+  margin-left: 25px;
+}
+
+#fract_2 {
+  background-image: url("frac2.jpg");
+}
+
+#fract_3 {
+  background-image: url("frac3.png");
+}
+
+#fract_4 {
+  background-image: url("frac4.png");
+}
