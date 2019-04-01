@@ -1,0 +1,81 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+
+table {
+  /* width:calc(100vw - 80%); */
+  /* border: 1px solid black; */
+  background-color: black;
+  width:calc(100vw -  25%);
+  /* text-align: center; */
+}
+
+/* body {
+  height: 100%;
+} */
+
+td {
+  background-color: white;
+  padding-left: 15px;
+}
+
+tr {
+  height: 10vh;
+  /* width: 100%; */
+}
+
+.text {
+  /* font-weight: 300; */
+  /* padding-left: 15px; */
+  /* background-color: blue; */
+}
+
+.global-container {
+  width:100vw;
+  /* height: calc(100vh - 1px;); */
+  height:125vh;
+
+  background-color: grey;
+}
+
+.body_text {
+  width:80%;
+  /* height:calc(120vh - 15px); */
+  background-color:lightblue;
+  margin: auto;
+  padding-top:15px;
+}
+
+.center {
+  text-align: center;
+  width:100%;
+  /* background-color: black; */
+}
+
+.first {
+  background-color: black;
+  color: white;
+  width: calc(10vw - 15px);
+  text-align: center;
+}
+
+.timeLine {
+  background-color: white;
+  width:100%;
+  height:60px;
+  padding-top:20px;
+  text-align: center;
+  /* width:20vw; */
+
+}

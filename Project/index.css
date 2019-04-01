@@ -1,0 +1,167 @@
+
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.global-container {
+  width:100vw;
+  height:100vh;
+  /* background-color: #343A40; */
+  /* background-color: purple; */
+  /* background-color: #34A2B8; */
+  /* background-color: black; */
+}
+
+.header {
+  width: calc(100vw - 30px);
+  height:calc(10vh - 25px);
+  /* background-color: grey; */
+  background-color: black;
+  color:white;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.canvas {
+  /* width:calc(100vw - 20vw);
+  height:calc(100vh - 20vh); */
+
+  /* width: 1500px;
+  height: 800px; */
+
+  /* width: calc(1500px + 10vw); */
+  width: 80vw;
+  height: calc(100vh - 10vh - 4px);
+
+  /* width: 600px; */
+
+  /* margin: auto; */
+  /* width:500px;
+  height:500px; */
+  /* width:1920px;
+  height:1080px; */
+  /* background-color: lightblue; */
+  /* border: 1px solid black; */
+}
+
+.canvas-container {
+  background-color: black;
+  /* background-color: white; */
+  /* background-color: #6C757D; */
+  /* padding-left:10vw; */
+  /* padding-right:10vw; */
+  /* height: 830px; */
+  height: calc(100vh - 10vh);
+  /* margin-top:10vh; */
+  /* height: calc(100vh - 10vh - 25px); */
+}
+
+.fractal-options-container {
+  float: left;
+  height: calc(100vh - 10vh - 100vh/2 - 35vh);
+  width: 20vw;
+  padding-top: calc(100vh/2 - 35vh);
+  /* width: calc(100vw - 1500px - 10vw); */
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.fractal-options-container-2 {
+  width:20px;
+  height:20px;
+  background-color:blue;
+}
+
+.type-of-fractal {
+  width:100%;
+  height: calc(10vh - 20px);
+  /* background-color:lightblue; */
+  background-color:black;
+  padding-top:20px;
+  text-align: center;
+  /* margin: auto; */
+}
+
+.real-time-div {
+  width:80%;
+  height:10px;
+  background-color: white;
+  margin: auto;
+}
+
+.side-menu {
+  padding-bottom: 10px;
+
+}
+
+.submit_button {
+
+  width:125px;
+  height:30px;
+  background-color: black;
+  /* background-color: #343A40; */
+  margin: auto;
+}
+
+.submit_button:hover {
+  background-color: white;
+  color:black;
+  cursor: pointer;
+}
+
+.menu-item {
+  float: left;
+  padding-right: 85px;
+}
+
+.examples-of-fractal {
+  width:100vw;
+  height: 90vh;
+  /* background-color:black; */
+  background-color:white;
+  margin: auto;
+  text-align:center;
+}
+
+.jumbotron {
+  padding-top: 5vh;
+  /* background-color: blue; */
+  color: white;
+  position: absolute;
+  left:13.25vw;
+  z-index: 10;
+}
+
+.carousel{
+  width:90%;
+  margin:0px auto;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+  background: #419be0;
+}
+
+.slick-slide {
+  text-align: center;
+  color: #419be0;
+  /* background: black; */
+  /* background: white; */
+}
