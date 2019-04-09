@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fractals</title>
+
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="/css/master.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="global-container">
+      <div class="header">
+        <h1 class="menu-item"><a href="index.html">Home</a></h1>
+        <h1>Fractal Type: Mandelbrot Set :)</h1>
+
+      </div>
+
+      <!-- <div class="canvas" id="frac1">
+
+      </div> -->
+      <div class="fractal-options-container">
+        <!-- <div class="fractal-options-container-2">
+        </div> -->
+        <!-- <div class="type-of-fractal">
+          <h1>Fractal Type:</h1>
+          <select name="cars">
+            <option value="Mandelbrot">Mandelbrot</option>
+            <option value="Julia">Julia</option>
+            <option value="Dragon Curve">Dragon Curve</option>
+          </select>
+        </div> -->
+        <h2 class="side-menu">Max Iterations:</h2>
+        <input type="text" name="max_it" value="100">
+        <h2 class="side-menu">Reach Threshold</h2>
+
+        <input type="text" name="reach" value="185">
+        <h2 class="side-menu">Magnification Factor</h2>
+        <input type="text" name="mag_factor" value="400">
+        <h2 class="side-menu">Pan X</h2>
+        <input type="text" name="pan_x" value="2">
+        <h2 class="side-menu">Pan Y</h2>
+        <input type="text" name="pan_y" value="1">
+        <h2 class="side-menu">HSL Color</h2>
+        <input type="text" name="hsl" value="0">
+        <br>
+        <!-- <div class="real-time-div">
+
+        </div> -->
+        <!-- <button type="button" name="button" onclick="submit()">Submit</button> -->
+        <div class="submit_button" onclick="submit()">
+          <h2>Generate</h2>
+
+        </div>
+
+
+      </div>
+
+      <div class="canvas-container">
+        <canvas id="frac1" class="canvas">
+
+
+        </canvas>
+      </div>
+
+
+
+    </div>
+
+    <script src="fractals.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </body>
+</html>

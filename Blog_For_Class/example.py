@@ -13,7 +13,7 @@ def simulation(number_of_games):
     for i in range(number_of_games):
         data.append(run_game())
 
-    ave = sum(data)/len(data)
+        ave = sum(data)/len(data)
 
     sd = 0
 
@@ -56,7 +56,6 @@ def main():
     visualize(big_data)
 
 main()
-
 
 # sns.set(color_codes=True)
 
